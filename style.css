@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+h1 {
+    margin: auto; 
+    margin-top: 30px;   
+    height: 60px;   
+}
+h1 span {
+    background-color: black;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    display: inline;
+}
+
+.choice {
+    height: 300px;
+    width: 300px;
+}
+
+img:hover {
+    /* opacity: 0.6; */
+    cursor: pointer;
+    height: 285px;
+    border: 5px solid black;
+
+}
+
+img {
+    height: 270px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.score-board {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 100px;
+}
+
+#user-score, #pc-score {
+    font-size: 70px;
+}
+
+.msg-container {
+    margin-top: 50px;
+}
+
+#msg {
+    background-color: black;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    display: inline;
+}
