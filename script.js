@@ -25,8 +25,8 @@ const drawGame = () => {
       msg.innerText = `You win! Your ${userChoice} beats ${pcChoice}`;
       msg.style.backgroundColor = "green";
     } else {
-      compScore++;
-      compScorePara.innerText = compScore;
+      pcScore++;
+      compScorePara.innerText = pcScore;
       msg.innerText = `You lost. ${pcChoice} beats your ${userChoice}`;
       msg.style.backgroundColor = "red";
     }
